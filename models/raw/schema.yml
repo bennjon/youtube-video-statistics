@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: videos
+    description: "Load videos from stage"
+    columns:
+      - name: video_id
+      - name: trending_date_str
+      - name: title
+      - name: channel_title
+      - name: category_id
+      - name: publish_time
+      - name: tags
+      - name: views
+      - name: likes
+      - name: dislikes
+      - name: comment_count
+      - name: thumbnail_link
+      - name: comments_disabled
+      - name: ratings_disabled
+      - name: video_error_or_removed
+      - name: description
+      - name: file_name
+      - name: etl_inserted_timestamp
