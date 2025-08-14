@@ -22,7 +22,7 @@
                 $16 AS description,
                 METADATA$FILENAME as file_name,
                 CURRENT_TIMESTAMP as etl_inserted_timestamp
-            FROM @raw.sf_videos_stg
+            FROM @sf_videos_stg
         )
     "
 ) }}

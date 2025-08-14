@@ -6,7 +6,7 @@
             SELECT 
                 $1 AS json_data,
                 CURRENT_TIMESTAMP as etl_inserted_timestamp
-            FROM @raw.sf_category_stg
+            FROM @sf_category_stg
         )
     "
 ) }}
